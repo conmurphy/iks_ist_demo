@@ -67,7 +67,7 @@ module "terraform-intersight-iks" {
     addons = [
     {
         createNew = false
-        addonPolicyName = "iks-demo-smm-addon"
+        addonPolicyName = "smm"
     }
   ]
     
